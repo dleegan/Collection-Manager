@@ -246,7 +246,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Collection Manager/Collection_Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Collection Manager/Preview Content\"";
 				DEVELOPMENT_TEAM = 2G65FHL8TB;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -287,7 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Collection Manager/Collection_Manager.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Collection Manager/Preview Content\"";
 				DEVELOPMENT_TEAM = 2G65FHL8TB;
 				ENABLE_HARDENED_RUNTIME = YES;

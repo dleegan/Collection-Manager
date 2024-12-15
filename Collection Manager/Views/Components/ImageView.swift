@@ -31,6 +31,5 @@ struct ImageView: View {
 }
 
 #Preview {
-    ImageView(imageUrl: "")
     ImageView(imageUrl: "https://m.media-amazon.com/images/I/81NruMA7N9L._SL800_.jpg?w=3840&q=70")
 }

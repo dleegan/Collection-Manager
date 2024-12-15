@@ -22,14 +22,25 @@ struct BookItemView: View {
                 Text(book.name)
                     .bold()
                     .font(.title3)
-                Text("de \(book.author)")
+                    .lineLimit(1)
+
+                Text("de **\(book.author)**")
                     .font(.caption2)
+                    .foregroundStyle(.secondary)
+
+                CategoryItemView(category: getCategory)
             }
         }
         .frame(
             maxWidth: .infinity,
             alignment: .leading
         )
+    }
+
+    var getCategory: CategoryItem {
+        bookCategories.first(where: { category in
+            category.id == book.categoryId
+        }) ?? bookCategories[0]
     }
 }
 
